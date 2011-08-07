@@ -5,7 +5,12 @@ Developers:
 - Supersonic (EVO): barnacles10 
 	
 
-CHANGELOG	 	
+CHANGELOG
+-------------
+v0.2
+
+- Implement havs
+	 	
 -------------
 v0.1
 
