@@ -697,7 +697,7 @@ struct atmel_i2c_platform_data supersonic_atmel_ts_data[] = {
 		.config_T6 = {0, 0, 0, 0, 0, 0},
 		.config_T7 = {50, 15, 50},
 		.config_T8 = {10, 0, 20, 10, 0, 0, 5, 0},
-		.config_T9 = {139, 0, 0, 18, 12, 0, 16, 32, 3, 5, 0, 5, 2, 14, 2, 10, 25, 10, 0, 0, 0, 0, 0, 0, 0, 0, 143, 25, 146, 10, 20},
+        	.config_T9 = {139, 0, 0, 18, 12, 0, 16, 32, 3, 5, 0, 5, 2, 14, 5, 10, 25, 10, 0, 0, 0, 0, 0, 0, 0, 0, 143, 25, 146, 10, 20},
 		.config_T15 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		.config_T18 = {0, 0},
 		.config_T19 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -728,7 +728,7 @@ struct atmel_i2c_platform_data supersonic_atmel_ts_data[] = {
 		.config_T6 = {0, 0, 0, 0, 0, 0},
 		.config_T7 = {100, 10, 50},
 		.config_T8 = {8, 0, 50, 50, 0, 0, 50, 0},
-		.config_T9 = {3, 0, 0, 18, 12, 0, 32, 40, 2, 5, 0, 0, 0, 0, 2, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 143, 47, 145, 81},
+		.config_T9 = {139, 0, 0, 18, 12, 0, 16, 32, 3, 5, 0, 5, 2, 14, 5, 10, 25, 10, 0, 0, 0, 0, 0, 0, 0, 0, 143, 25, 146, 10, 20},
 		.config_T15 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		.config_T18 = {0, 0},
 		.config_T19 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -756,7 +756,7 @@ struct atmel_i2c_platform_data supersonic_atmel_ts_data[] = {
 		.config_T6 = {0, 0, 0, 0, 0, 0},
 		.config_T7 = {100, 10, 50},
 		.config_T8 = {8, 0, 50, 50, 0, 0, 50, 0},
-		.config_T9 = {3, 0, 0, 18, 12, 0, 64, 45, 3, 5, 0, 0, 0, 0, 2, 10, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 143, 47, 143, 81},
+   	        .config_T9 = {139, 0, 0, 18, 12, 0, 16, 32, 3, 5, 0, 5, 2, 14, 5, 10, 25, 10, 0, 0, 0, 0, 0, 0, 0, 0, 143, 25, 146, 10, 20},
 		.config_T15 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		.config_T18 = {0, 0},
 		.config_T19 = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -780,8 +780,8 @@ static struct regulator_init_data tps65023_data[5] = {
 	{
 		.constraints = {
 			.name = "dcdc1", /* VREG_MSMC2_1V29 */
-			.min_uV = 950000,
-			.max_uV = 1300000,
+			.min_uV = 875000,
+			.max_uV = 1350000,
 			.valid_ops_mask = REGULATOR_CHANGE_VOLTAGE,
 		},
 		.consumer_supplies = tps65023_dcdc1_supplies,
@@ -1475,6 +1475,7 @@ static struct msm_acpu_clock_platform_data supersonic_clock_data = {
 	.vdd_switch_time_us	= 62,
 	.power_collapse_khz	= 245000,
 	.wait_for_irq_khz	= 245000,
+        .mpll_khz    = 245000,
 };
 
 static unsigned supersonic_perf_acpu_table[] = {

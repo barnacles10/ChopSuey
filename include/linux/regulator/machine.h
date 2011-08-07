@@ -199,4 +199,5 @@ static inline void regulator_suppress_info_printing(void)
 }
 #endif
 
+extern int tps65023_set_dcdc1_level(int mvolts);
 #endif
