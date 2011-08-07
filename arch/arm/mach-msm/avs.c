@@ -60,9 +60,9 @@ struct clkctl_acpu_speed acpu_max_vdd_tbl[] = {
 /* Add a 3rd entry into the tables to hardlimit
 a minimum vdd that cannot be exceeded at a given frequency
 to prevent too-aggressive undervolting instability - netarchy */
-	{  19200, 925, 900 },
-	{ 128000, 925, 900 },
-	{ 245000, 950, 900 },
+	{  19200, 900, 900 },
+	{ 128000, 900, 900 },
+	{ 245000, 925, 900 },
 //	{ 256000, 950, 900 },
 	{ 384000, 975, 925 },
 	{ 422400, 1000, 950 },
