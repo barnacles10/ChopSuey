@@ -1,0 +1,52 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: /bVD4zA0C2hryGtCVkPlnHaeE7U=
+
+Name: kernel/dump_image
+SHA1-Digest: 7u3YxFfZ3EOInXBt1zdLNTkVu/Y=
+
+Name: system/lib/modules/bcm4329.ko
+SHA1-Digest: LOzBmrP9nBNN49+5rwJxdQ2IWhg=
+
+Name: kernel/unpackbootimg
+SHA1-Digest: tvAyJQ7jHWX7/AAXmx69HGxp5YE=
+
+Name: kernel/mkbootimg.sh
+SHA1-Digest: KYgOw4R0p/CJ8L4BRFCaZQuLXI0=
+
+Name: system/app/SZStats.apk
+SHA1-Digest: G8DsMYsYRgG1F59oiH6voYFdMsg=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: Zpy64yoH5MdkIFe0PRVmoqB6CTo=
+
+Name: system/lib/modules/wimaxdbg.ko
+SHA1-Digest: oYaeakgaqII0Bi4soMIAhscWgL4=
+
+Name: system/lib/modules/sequans_sdio.ko
+SHA1-Digest: iZZWyjkLDhMWr7RzzcucSx1mUow=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: dzWyifMIUFFxfRvaQkU2oEnXWlU=
+
+Name: system/lib/modules/jbd.ko
+SHA1-Digest: c84CcvXebg5ZfVTGjGUKB9iajs8=
+
+Name: system/lib/modules/ext3.ko
+SHA1-Digest: /8KCXwq2BGKqs0K7S+WkgQRt1Fg=
+
+Name: kernel/mkbootimg
+SHA1-Digest: WRcg/s+1//quxbrgEM7+7pSN3og=
+
+Name: kernel/zImage
+SHA1-Digest: QTgXn4TIaBSNTMxEEWbB7gvkx7k=
+
+Name: system/lib/modules/ext2.ko
+SHA1-Digest: 3gogeNcqgkRE3HBP4XgdBNIzmQ0=
+
+Name: META-INF/com/android/metadata
+SHA1-Digest: QpHZjIAW8qyBOf+abUobxPjI7Kk=
+
+Name: system/lib/modules/wimaxuart.ko
+SHA1-Digest: 2+6405bWV2nGs+fVJKcgtBjBBpg=
+

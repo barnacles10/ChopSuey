@@ -1,0 +1,4 @@
+modver=CyanogenMod-6.1.1-Supersonic
+post-build=sprint/htc_supersonic/supersonic/supersonic:2.2/FRF91/252548:user/release-keys
+post-timestamp=0
+pre-device=supersonic
