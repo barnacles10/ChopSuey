@@ -47,7 +47,6 @@ obj-$(CONFIG_MSM_FIQ_SUPPORT) += fiq_glue.o
 obj-$(CONFIG_MACH_TROUT) += board-trout-rfkill.o
 
 obj-$(CONFIG_ARCH_MSM7X30) += rpc_hsusb.o
-obj-$(CONFIG_MSM_CPU_AVS) += avs.o avs_hw.o
 
 obj-y += remote_spinlock.o
 

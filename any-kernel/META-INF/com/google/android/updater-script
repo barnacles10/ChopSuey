@@ -31,7 +31,7 @@ ui_print("");
 ui_print("");
 ui_print("");
 ui_print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-ui_print("CHOPSUEY KERNEL v.02-havs-test        Version: Universal");
+ui_print("CHOPSUEY KERNEL v.01        Version: Universal");
 ui_print("Developed by: barnacles10    Device: HTC Evo 4g");
 ui_print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 ui_print("");
