@@ -1,21 +1,22 @@
--ChopSuey supersonic kernel	 	
--==============	 	
--Developers:	 	
+ChopSuey supersonic kernel	 	
+==============	 	
+Developers:	 	
 ------------- 	
--* Supersonic (EVO): barnacles10 
+- Supersonic (EVO): barnacles10 
+	
 
--Thanks:	 	
-------------- 	
--* Lithid for the initial source and build scripts 	
-
--CHANGELOG	 	
+CHANGELOG	 	
 -------------
--v0.1
--
-- *Initial commit supersonic 2.6.35.10 kernel
-- *Enable CFQ scheduler
-- *Enable powersave, smartass governer (default) - lithid
-- *Static undervolting
-- *Sprinkles
+v0.1
 
+- Initial commit supersonic 2.6.35.10 kernel
+- Enable CFQ scheduler
+- Enable powersave, smartass governer (default) - lithid
+- Static undervolting
+- Sprinkles
 
+------------- 
+Thanks:	
+- Lithid for the base kernel source and build scripts 	
+- HTC for the source and releasing it
+- Google for a platform to have fun on
